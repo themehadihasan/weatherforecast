@@ -55,9 +55,6 @@ const Search = () => {
             <div className='maxMin'>
               <h5><span>Max:<b className='ps-3'>{city.temp_max}°</b></span> <span className='ps-3'>Min:<b className='ps-3'>{city.temp_min}°</b></span></h5>
             </div>
-            {/* <div className='wind'>
-              <h5><span>Wind<b className='ps-2'>({city.temp})</b></span> <span className='ps-1'>{city.temp} mi/hr</span></h5>
-            </div> */}
           </div>
           </>
         )
