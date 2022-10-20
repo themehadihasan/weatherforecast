@@ -1,0 +1,75 @@
+.search {
+    width: 45%;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px 20px;
+    color: white;
+}
+
+.inputSearch {
+    width: 100%;
+}
+
+input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.bxs-map {
+   background-color: #fd94ab;
+   color: white;
+   padding: 3px;
+}
+
+.bxs-map:hover {
+    background-color: #fd9eb3;
+}
+
+@media screen and (max-width: 960px) {
+    .search {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .search {
+        width: 95%;
+    }
+}
+
+/* Result */
+
+.city {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    text-align: center;
+    margin-right: 45px;
+}
+
+.right i {
+    font-size: 125px;
+}
+
+.wheather h1 {
+    font-size: 75px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .right {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .right {
+        margin-right: 0;
+    }
+}
